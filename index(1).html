@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta content="JT's Website, Material³ rewrite" property="og:title">
+    <meta content="WELCOME TO THE NEXT LEVEL" property="og:description">
+    <meta content="https://jettcelis.github.io/" property="og:url">
+    <link href="./../../../../cdn/beer/css/beer.min.css" rel="stylesheet">
+    <script type="module" src="./../../../../cdn/beer/js/beer.min.js"></script>
+  </head>
+  <body class="dark">
+    <!-- Top bar -->
+    <!-- Mobile -->
+    <header class="fixed">
+      <nav>
+        <h5 class="max">Home</h5>
+        <button class="circle transparent s" data-ui="#about">
+          <img class="responsive s" src="./cdn/img/v3pfp.jpeg">
+        </button>
+      </nav>
+    </header>
+    <!-- PC -->
+    <nav class="left m l">
+      <header>
+        <button class="circle transparent m l" data-ui="#aboutpc">
+          <img class="responsive" src="./cdn/img/v3pfp.jpeg">
+        </button>
+      </header>
+      <a>
+        <i>globe</i>
+        <div>Sites</div>
+      </a>
+      <a>
+        <i>expand_circle_down</i>
+        <div>Index</div>
+      </a>
+    </nav>
+    <!-- -->
+    <!-- -->
+    <!-- Main Container -->
+    <main class="responsive">
+      <!-- LUI, PC, Tablet warning message -->
+      <article class="m l">
+        <h5>You're on Landscape UI</h5>
+        <p>Support is still limited and everything might be probably broken.</p>
+      </article>
+      <!-- V3RW Notice, Mobile -->
+      <article class="no-padding border s">
+        <img class="responsive medium" src="./cdn/img/NEXTLEVEL.png">
+        <div class="absolute bottom left right padding bottom-shadow white-text">
+          <nav>
+            <h5>A New Refresh</h5>
+            <div class="max"></div>
+            <button class="circle transparent" data-ui="#menu">
+              <i>more_vert</i>
+              <menu id="menu" class="left no-wrap">
+                <a data-ui="#v3rwinfo">More Info</a>
+                <a href="./archive/v2">Switch to Old UI</a>
+              </menu>
+            </button>
+          </nav>
+        </div>
+      </article>
+      <!-- V3RW Notice, PC/Tablet -->
+      <article class="border no-padding m">
+        <img class="responsive small" src="./cdn/img/NEXTLEVEL.png">
+        <div class="padding">
+          <h5>A New Refresh</h5>
+          <p>Baked sites, a new ui; the total package!</p>
+          <div class="small-divider"></div>
+          <p>All V2 pages are currently under rewrite to utilize the new UI. Switch to the old UI with the button below to access the site for now.</p>
+          <nav>
+            <button data-ui="#v3rwinfo">More Info</button>
+            <a href="./archive/v2"><button>Switch</button></a>
+          </nav>
+        </div>
+      </article>
+      <!-- Scroll for latest news (both mobile and pc uis -->
+      <h5>Recent News & Docs</h5>
+      <div class="row scroll">
+        <article class="small-width no-padding border">
+          <img class="responsive small" src="./cdn/img/zzz.webp">
+          <div class="padding">
+            <h5>Gacha Comp. List</h5>
+            <p>Nerdy stuff about games</p>
+            <nav>
+              <button>Read More</button>
+            </nav>
+          </div>
+        </article>
+        <article class="small-width no-padding border">
+          <img class="responsive small" src=".">
+          <div class="padding">
+            <h5>Workflow Changes</h5>
+            <p>i HATE school. /j</p>
+            <nav>
+              <button>Read More</button>
+            </nav>
+          </div>
+        </article>
+      </div>
+      <!-- support me LOL -->
+      <h5>Support my works</h5>
+      <p>NOT mandatory, thanks anyway!</p>
+      <a class="row padding surface-container wave" href="https://patreon.com/user?u=91357436">
+        <img class="round" src="https://c14.patreon.com/large_Patreon_Symbol_6fff9723d3.png">
+        <div class="max">
+          <h6 class="small">Patreon</h6>
+          <div>Not up-to-date, needs to configure payment menthod</div>
+        </div>
+      </a>
+      <div class="space"></div>
+      <a class="row padding surface-container wave" href="https://ko-fi.com/jtghph">
+        <img class="round" src="https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/61e1116779fc0a9bd5bdbcc7_Frame%206.png">
+        <div class="max">
+          <h6 class="small">Ko-Fi</h6>
+          <div>WIP</div>
+        </div>
+      </a>
+    </main>
+    <!-- Navbars -->
+    <!-- This is mobile only. -->
+    <nav class="bottom s">
+      <a data-ui="#sites">
+        <i>globe</i>
+        <div>Sites</div>
+      </a>
+      <a data-ui="#index">
+        <i>expand_circle_up</i>
+        <div>Index</div>
+      </a>
+    </nav>
+  </body>
+  <!-- -->
+  <!-- -->
+  <!-- Dialogs -->
+  <!-- New rewrite: "More Info"-->
+  <dialog class="top" id="v3rwinfo">
+    <h5>What's Up?</h5>
+    <div class="small-divider"></div>
+    <div>Welcome to V3! With Beer CSS, I gave my website a new look, featuring Google's Material Design! With new features, components and possibilities, this will be the final UI rewrite of the website.
+    </div>
+    <nav class="drawer">
+      <a href="https://beercss.com">
+        <i><img src="https://www.beercss.com/favicon.png"></i>
+        <span>Visit the Beer CSS website</span>
+      </a>
+      <a href="https://github.com/beercss/beercss">
+        <i><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"></i>
+        <span>Beer CSS source, docs on GitHub</span>
+      </a>
+    </nav>
+    <nav class="right-align">
+      <button class="border" data-ui="#v3rwinfo">Okay, Got it!</button>
+    </nav>
+  </dialog>
+  <!-- Index Dialogs -->
+  <!-- Sites -->
+  <!-- Mobile -->
+  <dialog class="bottom s" id="sites">
+    <nav class="drawer">
+      <header>
+        <nav>
+          <h6 class="max">Sites</h6>
+          <button class="transparent circle large" data-ui="#sites">
+            <i>close</i>
+          </button>
+        </nav>
+      </header>
+      <a href="./dcm">
+        <i><img src="https://cdn.discordapp.com/icons/1233672241997152277/1f4884a5be89420a902cb421a41a0119.webp"></i>
+        <span>Depressed Cycrane Mains</span>
+      </a>
+      <a href="./sra">
+        <i><img src="https://cdn.discordapp.com/icons/1250509077545484419/310469acbf7df5ab9bdc7ddce3e1de45.webp"></i>
+        <span>Star Rail: Abridged</span>
+      </a>
+      <div class="small-divider"></div>
+      <a href="https://tstbxware.github.io">
+        <i><img src="https://cdn.discordapp.com/icons/1253275559405031474/c569d8947126ce5bc26edfd6f735f2b9.webp"></i>
+        <span>Toastbox HQ</span>
+      </a>
+    </nav>
+  </dialog>
+  <!-- LUI/PC -->
+  <!-- -->
+  <!-- -->
+  <!-- Index -->
+  <!-- Mobile -->
+  <dialog class="bottom" id="index">
+    <h5>Work in Progress</h5>
+    <div>Come back later!</div>
+  </dialog>
+  <!-- LUI/PC -->
+  <!-- -->
+  <!-- -->
+  <!-- Profile -->
+  <!-- Mobile -->
+  <dialog class="right no-padding" id="about">
+    <nav class="drawer">
+      <header>
+        <nav>
+        <img class="circle" src="./cdn/img/masterlogo.png">
+        <h6 class="max">About</h6>
+        <button class="transparent circle large" data-ui="#about">
+          <i>close</i>
+        </button>
+        </nav>
+      </header>
+      <a>
+        <i>account_circle</i>
+        <span>About Me</span>
+      </a>
+      <a href="https://jtghph.carrd.co">
+        <i>space_dashboard</i>
+        <span>Carrd</span>
+      </a>
+      <div class="small-divider"></div>
+      <a>
+        <i>help</i>
+        <span>What i do</span>
+      </a>
+      <a>
+        <i>devices</i>
+        <span>My Equipment</span>
+      </a>
+      <a>
+        <i>group</i>
+        <span>My Friends</span>
+      </a>
+      <div class="small-divider"></div>
+      <a>
+        <i>copyright</i>
+        <span>Credits</span>
+      </a>
+    </nav>
+  </dialog>
+  <!-- LUI/PC -->
+  <dialog class="left no-padding m l" id="aboutpc">
+    <nav class="drawer">
+      <header>
+        <nav>
+          <img class="circle" src="./cdn/img/masterlogo.png">
+          <div class="max">
+            <h6 class="max">About</h6>
+            <small>2024.0712.V3</small>
+          </div>
+          <button class="transparent circle large" data-ui="#aboutpc">
+            <i>close</i>
+          </button>
+        </nav>
+      </header>
+      <a>
+        <i>account_circle</i>
+        <span>About Me</span>
+      </a>
+      <a>
+        <i>space_dashboard</i>
+        <span>Carrd</span>
+      </a>
+      <div class="small-divider"></div>
+      <a>
+        <i>help</i>
+        <span>What i do</span>
+      </a>
+      <a>
+        <i>devices</i>
+        <span>My Equipment</span>
+      </a>
+      <a>
+        <i>group</i>
+        <span>My Friends</span>
+      </a>
+      <div class="small-divider"></div>
+            <details>
+        <summary class="none">
+          <a class="row wave">
+            <i>link</i>
+            <span>Links</span>
+          </a>
+        </summary>
+        <details>
+          <summary class="none">
+            <a class="row wave">Discord</a>
+          </summary>
+          <details>
+            <summary class="none">
+              <a class="row wave">
+                <i><img src="./cdn/img/icons/dcm.webp"></i>
+                <span>Depressed Cycrane Mains</span>
+              </a>
+              <a class="row wave">Toastbox HQ</a>
+              <div class="small-divider"></div>
+            </summary>
+          </details>
+        </details>
+        <a class="row wave">GitHub</a>
+        <a class="row wave">YouTube</a>
+        <a class="row wave">osu! Profile</a>
+      </details>
+      <a>
+        <i>copyright</i>
+        <span>Credits</span>
+      </a>
+    </nav>
+  </dialog>
+</html>
